@@ -24,4 +24,8 @@ class WeatherTableViewCell: UITableViewCell {
         return UINib(nibName: "WeatherTableViewCell", bundle: nil)
     }
     
+    func configure(with model: WeatherBase){
+    
+    }
+    
 }

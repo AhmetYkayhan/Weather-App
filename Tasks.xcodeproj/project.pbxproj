@@ -17,6 +17,16 @@
 		2C0A0E4426F21E61003572D6 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A0E4226F21E61003572D6 /* WeatherTableViewCell.xib */; };
 		2C0A0E4726F21EAA003572D6 /* HourlyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A0E4526F21EAA003572D6 /* HourlyTableViewCell.swift */; };
 		2C0A0E4826F21EAA003572D6 /* HourlyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A0E4626F21EAA003572D6 /* HourlyTableViewCell.xib */; };
+		2CECFA202714981D00CB6E8A /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CECFA162714981C00CB6E8A /* City.swift */; };
+		2CECFA212714981D00CB6E8A /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CECFA172714981C00CB6E8A /* Weather.swift */; };
+		2CECFA222714981D00CB6E8A /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CECFA182714981C00CB6E8A /* Main.swift */; };
+		2CECFA232714981D00CB6E8A /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CECFA192714981C00CB6E8A /* List.swift */; };
+		2CECFA242714981D00CB6E8A /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CECFA1A2714981C00CB6E8A /* Clouds.swift */; };
+		2CECFA252714981D00CB6E8A /* Rain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CECFA1B2714981D00CB6E8A /* Rain.swift */; };
+		2CECFA262714981D00CB6E8A /* Coord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CECFA1C2714981D00CB6E8A /* Coord.swift */; };
+		2CECFA272714981D00CB6E8A /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CECFA1D2714981D00CB6E8A /* Sys.swift */; };
+		2CECFA282714981D00CB6E8A /* WeatherBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CECFA1E2714981D00CB6E8A /* WeatherBase.swift */; };
+		2CECFA292714981D00CB6E8A /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CECFA1F2714981D00CB6E8A /* Wind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,16 @@
 		2C0A0E4226F21E61003572D6 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
 		2C0A0E4526F21EAA003572D6 /* HourlyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyTableViewCell.swift; sourceTree = "<group>"; };
 		2C0A0E4626F21EAA003572D6 /* HourlyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HourlyTableViewCell.xib; sourceTree = "<group>"; };
+		2CECFA162714981C00CB6E8A /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		2CECFA172714981C00CB6E8A /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		2CECFA182714981C00CB6E8A /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		2CECFA192714981C00CB6E8A /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		2CECFA1A2714981C00CB6E8A /* Clouds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clouds.swift; sourceTree = "<group>"; };
+		2CECFA1B2714981D00CB6E8A /* Rain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rain.swift; sourceTree = "<group>"; };
+		2CECFA1C2714981D00CB6E8A /* Coord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coord.swift; sourceTree = "<group>"; };
+		2CECFA1D2714981D00CB6E8A /* Sys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sys.swift; sourceTree = "<group>"; };
+		2CECFA1E2714981D00CB6E8A /* WeatherBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherBase.swift; sourceTree = "<group>"; };
+		2CECFA1F2714981D00CB6E8A /* Wind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +84,7 @@
 		2C0A0E2A26F21692003572D6 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				2CECFA152714979D00CB6E8A /* Models */,
 				2C0A0E4026F21B73003572D6 /* HourlyCollectionCell */,
 				2C0A0E3F26F21B65003572D6 /* WeatherCell */,
 				2C0A0E2B26F21692003572D6 /* AppDelegate.swift */,
@@ -93,6 +114,23 @@
 				2C0A0E4626F21EAA003572D6 /* HourlyTableViewCell.xib */,
 			);
 			path = HourlyCollectionCell;
+			sourceTree = "<group>";
+		};
+		2CECFA152714979D00CB6E8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CECFA162714981C00CB6E8A /* City.swift */,
+				2CECFA1A2714981C00CB6E8A /* Clouds.swift */,
+				2CECFA1C2714981D00CB6E8A /* Coord.swift */,
+				2CECFA192714981C00CB6E8A /* List.swift */,
+				2CECFA182714981C00CB6E8A /* Main.swift */,
+				2CECFA1B2714981D00CB6E8A /* Rain.swift */,
+				2CECFA1D2714981D00CB6E8A /* Sys.swift */,
+				2CECFA172714981C00CB6E8A /* Weather.swift */,
+				2CECFA1E2714981D00CB6E8A /* WeatherBase.swift */,
+				2CECFA1F2714981D00CB6E8A /* Wind.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,9 +207,19 @@
 			files = (
 				2C0A0E4326F21E61003572D6 /* WeatherTableViewCell.swift in Sources */,
 				2C0A0E3026F21692003572D6 /* ViewController.swift in Sources */,
+				2CECFA222714981D00CB6E8A /* Main.swift in Sources */,
+				2CECFA202714981D00CB6E8A /* City.swift in Sources */,
 				2C0A0E4726F21EAA003572D6 /* HourlyTableViewCell.swift in Sources */,
 				2C0A0E2C26F21692003572D6 /* AppDelegate.swift in Sources */,
+				2CECFA272714981D00CB6E8A /* Sys.swift in Sources */,
+				2CECFA252714981D00CB6E8A /* Rain.swift in Sources */,
 				2C0A0E2E26F21692003572D6 /* SceneDelegate.swift in Sources */,
+				2CECFA212714981D00CB6E8A /* Weather.swift in Sources */,
+				2CECFA262714981D00CB6E8A /* Coord.swift in Sources */,
+				2CECFA292714981D00CB6E8A /* Wind.swift in Sources */,
+				2CECFA282714981D00CB6E8A /* WeatherBase.swift in Sources */,
+				2CECFA232714981D00CB6E8A /* List.swift in Sources */,
+				2CECFA242714981D00CB6E8A /* Clouds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
